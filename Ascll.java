@@ -18,30 +18,18 @@ public class Ascll {
 				sum=sum+ch;
 			}
 			System.out.println(sum);
-		
 		}
-	
 		public static void main(String args[]) {
 			String s="ABCD";
-			if(isEmpty(s)) {
+			if(isEmpty(s)) 
 				System.out.println("String is empty");
-			}
-			else {
+			else 
 				string(s);
-			}
 		}
 }
 
 
-//			int sum=0;
-//			for(int i=0;i<=s.length()-1;i++) {
-//				char ch=s.charAt(i);
-//				if(ch>=65 && ch<=90 ||ch>=97 && ch<=122) {
-//					sum=sum+ch;
-//					
-//				}
-//			}
-//			System.out.println(sum);
+
 
 
 		
